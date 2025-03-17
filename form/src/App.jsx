@@ -11,6 +11,7 @@ function App() {
         <Route path="/" element={<Form />} /> 
         <Route path="/Data" element={<Data />} />
       </Routes>
+      
     </Router>
   );
 }
