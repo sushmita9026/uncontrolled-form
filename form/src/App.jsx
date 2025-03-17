@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Form from './Form';
 import Data from './Data';
-
 function App() {
   return (
     <Router>
@@ -11,7 +10,7 @@ function App() {
         <Route path="/" element={<Form />} /> 
         <Route path="/Data" element={<Data />} />
       </Routes>
-      
+
     </Router>
   );
 }
