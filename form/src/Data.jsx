@@ -5,6 +5,7 @@ function Data(){
   const {Name,Email,Massege}=location.state;
      return(
        <>
+       <h1>From Data</h1>
          <div className="datacontainer">
         <p> Name:{Name}</p>
         <p> Email:{Email}</p>
